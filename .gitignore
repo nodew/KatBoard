@@ -1,0 +1,5 @@
+.vs
+publish
+bin
+obj
+KatBoard/KatBoard.csproj.*
