@@ -1,4 +1,23 @@
-﻿<Window x:Class="KatBoard.SettingWindow"
+﻿<!--
+ Copyright (C) 2020 Joe Wang
+
+ This file is part of KatBoard.
+
+ KatBoard is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ KatBoard is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with KatBoard.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<Window x:Class="KatBoard.SettingWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -14,12 +33,12 @@
             </StackPanel>
             <StackPanel Margin="0 12 0 0">
                 <TextBlock Text="Shortcut keys" />
-                <TextBox x:Name="ShortcutKeyBinding" 
-                         Width="200" 
-                         Margin="0 6 0 0" 
+                <TextBox x:Name="ShortcutKeyBinding"
+                         Width="200"
+                         Margin="0 6 0 0"
                          HorizontalAlignment="Left" />
-                <TextBlock Text="Example: CTRL+L" 
-                           FontSize="10" 
+                <TextBlock Text="Example: CTRL+L"
+                           FontSize="10"
                            Foreground="DarkGray" />
             </StackPanel>
             <Button x:Name="SaveSettings"
