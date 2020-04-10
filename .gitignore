@@ -4,3 +4,5 @@ publish
 bin
 obj
 KatBoard/KatBoard.csproj.*
+Debug
+Release
