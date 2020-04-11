@@ -16,7 +16,6 @@
 // along with KatBoard.  If not, see <http://www.gnu.org/licenses/>.
 
 using System;
-using System.Reflection;
 
 namespace KatBoard
 {
@@ -24,12 +23,7 @@ namespace KatBoard
     {
         public static Uri Get(string resourcePath)
         {
-            var uri = string.Format(
-                "pack://application:,,,/{0};component/{1}"
-                , Assembly.GetExecutingAssembly().GetName().Name
-                , resourcePath
-            );
-
+            var uri = string.Format("pack://application:,,,/{0}", resourcePath);
             return new Uri(uri);
         }
     }

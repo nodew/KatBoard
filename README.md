@@ -20,5 +20,5 @@ Everybody who has cat suffers from these sweet moments until I have **KatBoard**
 - [x] ~~Auto startup~~
 - [x] ~~Singleton Instance~~
 - [x] ~~Support customized shortcut to quick lock the keyboard~~
-- [ ] Better publish/installation experience
-- [ ] Migrate to .netcore 3.0
+- [x] ~~Better publish/installation experience~~
+- [x] ~~Migrate to .netcore 3.0~~

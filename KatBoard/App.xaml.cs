@@ -50,7 +50,7 @@ namespace KatBoard
         protected override void OnStartup(StartupEventArgs e)
         {
             trayIcon = new TaskbarIcon();
-            trayIcon.IconSource = new BitmapImage(ResourceAccessor.Get(@"Assets\Cat.ico"));
+            trayIcon.IconSource = new BitmapImage(ResourceAccessor.Get(@"Assets/Cat.ico"));
             trayIcon.ToolTipText = "KatBoard is running";
             trayIcon.ContextMenu = GetTrayContextMenu();
 
