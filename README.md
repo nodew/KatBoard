@@ -10,15 +10,18 @@ Everybody who has cat suffers from these sweet moments until I have **KatBoard**
 
 1. Download latest release from [https://github.com/nodew/KatBoard/releases](https://github.com/nodew/KatBoard/releases)
 
-2. Unzip the release.
+2. Double click KatBoard.msi to setup the app.
 
-3. Double click setup.exe to setup.
+3. Startup the app
 
-4. Startup the app
+    ![Running](Docs/Images/screenshot1.jpg)
+
+4. Configuration, support auto startup and customized shortcut
+
+    ![Settings](Docs/Images/screenshot2.jpg)
 
 ## TODO
 - [x] ~~Auto startup~~
 - [x] ~~Singleton Instance~~
 - [x] ~~Support customized shortcut to quick lock the keyboard~~
 - [x] ~~Better publish/installation experience~~
-- [x] ~~Migrate to .netcore 3.0~~
